@@ -1,0 +1,33 @@
+version: "3.8"
+
+name: ivolve
+
+networks:
+  ivolve-network:
+
+volumes:
+  db_data:
+
+services:
+  app:
+    build:
+      context: kubernets-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - DB_HOST=db
+      - DB_USER=user
+      - DB_PASSWORD=pass@123
+    depends_on:
+      - db
+  
+  db:
+    image: mysql:latest
+    environment:
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=pass@123
+      - MYSQL_DATABASE=ivolve
+      - MYSQL_ROOT_PASSWORD=root-pass@123
+    volumes:
+      - db_data:/var/lib/mysql

@@ -1,0 +1,21 @@
+[submodule "Cloned-Repos/build1"]
+	path = Cloned-Repos/build1
+	url = https://github.com/Ibrahim-Adel15/build1.git
+[submodule "Cloned-Repos/build2"]
+	path = Cloned-Repos/build2
+	url = https://github.com/Ibrahim-Adel15/build2.git
+[submodule "Cloned-Repos/Docker-1"]
+	path = Cloned-Repos/Docker-1
+	url =	https://github.com/Ibrahim-Adel15/Docker-1.git
+[submodule "Cloned-Repos/Docker-3"]
+	path = Cloned-Repos/Docker-3
+	url =	https://github.com/Ibrahim-Adel15/Docker-3.git
+[submodule "Cloned-Repos/Docker5"]
+	path = Cloned-Repos/Docker5
+	url =	https://github.com/Ibrahim-Adel15/Docker5.git
+[submodule "Cloned-Repos/kubernets-app"]
+	path = Cloned-Repos/kubernets-app
+	url = https://github.com/Ibrahim-Adel15/kubernets-app.git
+[submodule "Cloned-Repos/kubernets"]
+	path = Cloned-Repos/kubernets
+	url = https://github.com/Ibrahim-Adel15/kubernets-app.git
